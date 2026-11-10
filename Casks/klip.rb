@@ -1,6 +1,6 @@
 cask "klip" do
-  version "1.66"
-  sha256 "171ebba18e31453f2f2148cf3217451647580c265b61ddb4de8b4d555a33832e"
+  version "1.67"
+  sha256 "9ec22fcbf56bbe8a1657b6e05b134de1cd50f2ff12428a01d57abdb4821da19f"
 
   url "https://getklip.vercel.app/downloads/Klip-#{version}.dmg"
   name "Klip"
