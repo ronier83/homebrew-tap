@@ -1,6 +1,6 @@
 cask "klip" do
-  version "1.65"
-  sha256 "448185e154b6d87e5ae5fdccbdd803e22a9d2f8f0c66ea8b876e1c4ea10bc191"
+  version "1.66"
+  sha256 "171ebba18e31453f2f2148cf3217451647580c265b61ddb4de8b4d555a33832e"
 
   url "https://getklip.vercel.app/downloads/Klip-#{version}.dmg"
   name "Klip"
@@ -15,7 +15,7 @@ cask "klip" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: ">= :tahoe"
 
   app "Klip.app"
 
