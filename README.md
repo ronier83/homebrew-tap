@@ -1,11 +1,13 @@
 # Ron Erez's Homebrew tap
 
-## Klip
+## KlipLoft
 
-A free clipboard manager for Mac, with pinboards, search and iCloud sync. [getklip.vercel.app](https://getklip.vercel.app)
+A free clipboard manager for Mac, with pinboards, search and iCloud sync. [getklip.me](https://www.getklip.me)
 
 ```bash
-brew install --cask ronier83/tap/klip
+brew install --cask ronier83/tap/kliploft
 ```
 
 Requires macOS 27 or later on Apple silicon.
+
+KlipLoft used to be called Klip. If you installed the `klip` cask, `brew upgrade` moves you to `kliploft` on its own.

@@ -1,21 +1,21 @@
-cask "klip" do
+cask "kliploft" do
   version "1.72"
   sha256 "fa863f2f2f5061bf244464a9a8b3d717f8c0a030dea479ad10c05b060cf58105"
 
-  url "https://getklip.vercel.app/downloads/Klip-#{version}.dmg"
-  name "Klip"
+  url "https://www.getklip.me/downloads/Klip-#{version}.dmg"
+  name "KlipLoft"
   desc "Clipboard manager with pinboards, search and iCloud sync"
-  homepage "https://getklip.vercel.app/"
+  homepage "https://www.getklip.me/"
 
   livecheck do
-    url "https://getklip.vercel.app/version.json"
+    url "https://www.getklip.me/version.json"
     strategy :json do |json|
       json["version"]
     end
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Klip.app"
 
