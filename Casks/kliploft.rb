@@ -1,6 +1,6 @@
 cask "kliploft" do
-  version "1.72"
-  sha256 "fa863f2f2f5061bf244464a9a8b3d717f8c0a030dea479ad10c05b060cf58105"
+  version "2.05"
+  sha256 "09d4490c09cf60e877ebd6a34fa024405baa22d7c2d1b58c8b3daf8712ce0632"
 
   url "https://www.getklip.me/downloads/Klip-#{version}.dmg"
   name "KlipLoft"
