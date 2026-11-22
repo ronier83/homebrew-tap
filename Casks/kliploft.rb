@@ -2,6 +2,7 @@ cask "kliploft" do
   version "2.42"
   sha256 "103679f7d41b301ec5996f47c1848c7115c72f92d87e711b70654fd11e62ceb4"
 
+  # Counts the install on kliploft.app, then redirects to /downloads/Klip-#{version}.dmg (see README)
   url "https://www.kliploft.app/brew/Klip-#{version}.dmg"
   name "KlipLoft"
   desc "Clipboard manager with pinboards, search and iCloud sync"
