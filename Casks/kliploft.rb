@@ -2,13 +2,13 @@ cask "kliploft" do
   version "2.42"
   sha256 "103679f7d41b301ec5996f47c1848c7115c72f92d87e711b70654fd11e62ceb4"
 
-  url "https://www.getklip.me/downloads/Klip-#{version}.dmg"
+  url "https://www.kliploft.app/brew/Klip-#{version}.dmg"
   name "KlipLoft"
   desc "Clipboard manager with pinboards, search and iCloud sync"
-  homepage "https://www.getklip.me/"
+  homepage "https://www.kliploft.app/"
 
   livecheck do
-    url "https://www.getklip.me/version.json"
+    url "https://www.kliploft.app/version.json"
     strategy :json do |json|
       json["version"]
     end
