@@ -25,8 +25,6 @@ KlipLoft used to be called Klip. If you installed the `klip` cask, `brew upgrade
     `brew upgrade` counts too, since it downloads again.
   - Only stable names (`Klip-2.42.dmg`) are accepted; anything else is a 404. The DMG has to be in
     Klip-Website's `downloads/` folder.
-- **KlipLoft Mini:** the cask downloads straight from the GitHub release, so GitHub counts it. The
-  console's Mini total is GitHub's download count, which includes Homebrew installs.
 
 ### Releasing a new KlipLoft version
 
@@ -39,7 +37,7 @@ KlipLoft used to be called Klip. If you installed the `klip` cask, `brew upgrade
 5. Push, then `brew update && brew fetch --cask --force ronier83/tap/kliploft`. This verifies the
    checksum end to end, and counts as one download.
 
-### Releasing a new KlipLoft Mini version
+### KlipLoft Mini
 
-Change `version` and `sha256` in `Casks/kliploft-mini.rb` (the checksum of `KlipLoft-Mini-<version>.dmg`
-on the GitHub release). The `url` follows the version.
+There's no Mini cask: Mini is only on the Mac App Store, or built from source on GitHub. Don't attach
+DMGs to KlipLoftMini's GitHub releases.
