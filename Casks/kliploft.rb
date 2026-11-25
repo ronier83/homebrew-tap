@@ -1,6 +1,6 @@
 cask "kliploft" do
-  version "2.50"
-  sha256 "e55281878ef0f8b846192b02a6517f7d6cfd41dcdbf23a3aab492f24e6f24d9d"
+  version "2.63"
+  sha256 "90bb6a0ff41e3639663f82708db512398218937df32dd03b1dcf846fa013ba8f"
 
   # Counts the install on kliploft.app, then redirects to /downloads/Klip-#{version}.dmg (see README)
   url "https://www.kliploft.app/brew/Klip-#{version}.dmg"
